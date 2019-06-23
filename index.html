@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Destiny Decks</title>
+                <!-- Required meta tags -->
+                <meta charset="utf-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+                <!-- Bootstrap CSS Font Awesome -->
+                <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+                <link rel="stylesheet" href="./css/style.css">
+                <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+        </head>
+
+        <body>
+            <!--Logo-->
+            <div class="row header">
+                <div class="logo">
+                    <a href="#"><img class="imgLogo container" src="./img/DD_Logo.png" alt="Destiny Decks logo" /></a>
+                </div>
+            </div>
+            <!--Navbar-->
+            <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+                <div class="container">
+                    <a class="navbar-brand" href="#">Destiny Decks</a>
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSite">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item"><a class="nav-link" href="#">Prices</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" id="navDrop" href="#">
+                                    Decks                                    
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Metagame</a>
+                                    <a class="dropdown-item" href="#">Decks Search</a>
+                                    <a class="dropdown-item" href="#">Submit a Deck</a>
+                                    <a class="dropdown-item" href="#">Standard Staples</a>
+                                </div>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="#">Tournaments</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" id="navDrop" href="#">
+                                    Community
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Articles</a>
+                                    <a class="dropdown-item" href="#">Videos</a>
+                                    <a class="dropdown-item" href="#">Podcasts</a>
+                                </div>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="#">Shop</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" id="navDrop" href="#">
+                                    Tools                                    
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">My Collection</a>
+                                    <a class="dropdown-item" href="#">My Decks</a>
+                                    <a class="dropdown-item" href="#">My Pricewatch</a>
+                                    <a class="dropdown-item" href="#">Premium</a>
+                                    <a class="dropdown-item" href="#">Rules</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" id="navDrop" href="#">
+                                    Cards                                    
+                                </a>
+                                <!-- Tentar colocar identificação por ciclo-->
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Two-Player Game</a>
+                                    <a class="dropdown-item" href="#">Legacies</a>
+                                    <a class="dropdown-item" href="#">Rivals</a>
+                                    <a class="dropdown-item" href="#">Way of the Force</a>
+                                    <a class="dropdown-item" href="#">Across the Galaxy</a>
+                                    <a class="dropdown-item" href="#">Convergence</a>
+                                    <a class="dropdown-item" href="#">Allies of Necessity</a>
+                                    <a class="dropdown-item" href="#">Spark of Hope</a>
+                                </div>
+                            </li>
+                        </ul>    
+                        <!--Searchbar-->
+                        <form class="form-inline">
+                            <input class="form-control ml-2 mr-2" type="search" placeholder="Search...">
+                            <button class="btn btn-dark" type="submit">OK</button>
+                        </form>
+                        <!--Login-->
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-sign-in-alt"></i> Login</a></li>
+                        </ul>                        
+                    </div>
+                </div>
+            </nav>
+            
+            <!--Carousel-->     
+                   
+            <div id="carouselSite" class="carousel slide" data-ride="carousel">
+                <!--Indicadores-->
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselSite" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselSite" data-slide-to="1"></li>
+                    <li data-target="#carouselSite" data-slide-to="2"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner container">
+                    <div class="carousel-item active">
+                        <img src="./img/carroussel01.jpg" id="img111" class="img-fluid d-block" alt="Star Wars VIII Poster">
+                        <div class="carousel-caption">
+                            <h3>Star Wars VIII</h3>
+                            <p>The Last Jedi Poster</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/carroussel02.jpg" class="img-fluid d-block" alt="Star Wars Celebration">
+                        <div class="carousel-caption">
+                            <h3>Star Wars Celebration</h3>
+                            <p>Celebration poster</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/carroussel0.jpg" class="img-fluid d-block" alt="Star Wars VIII">
+                        <div class="carousel-caption">
+                            <h3>Star Wars VIII</h3>
+                            <p>Alternative poster</p>
+                        </div>
+                    </div>
+                    <!--Left and right controls-->
+                    <a class="carousel-control-prev" href="#carouselSite" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselSite" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>        
+
+            <!--Decks--> 
+            <div class="container">
+                <h1>#Articles</h1> 
+                <div class="row mb-5">                               
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <img class="card-img-top" src="./img/ArticlesPlaceholder.jpg">
+                            <div class="card-body">
+                                <h4 class="card-title">Card Title</h4>
+                                <h6 class="card-subtitle mb-2 text-muted">Card Subtitle</h6>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet quae incidunt, quibusdam vitae neque dolorum quos tenetur quod eveniet! Quod harum laboriosam distinctio accusantium tempora expedita ab illum aliquid soluta?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <img class="card-img-top" src="./img/ArticlesPlaceholder.jpg">
+                            <div class="card-body">
+                                <h4 class="card-title">Card Title</h4>
+                                <h6 class="card-subtitle mb-2 text-muted">Card Subtitle</h6>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet quae incidunt, quibusdam vitae neque dolorum quos tenetur quod eveniet! Quod harum laboriosam distinctio accusantium tempora expedita ab illum aliquid soluta?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <img class="card-img-top" src="./img/ArticlesPlaceholder.jpg">
+                            <div class="card-body">
+                                <h4 class="card-title">Card Title</h4>
+                                <h6 class="card-subtitle mb-2 text-muted">Card Subtitle</h6>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet quae incidunt, quibusdam vitae neque dolorum quos tenetur quod eveniet! Quod harum laboriosam distinctio accusantium tempora expedita ab illum aliquid soluta?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <img class="card-img-top" src="./img/ArticlesPlaceholder.jpg">
+                            <div class="card-body">
+                                <h4 class="card-title">Card Title</h4>
+                                <h6 class="card-subtitle mb-2 text-muted">Card Subtitle</h6>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet quae incidunt, quibusdam vitae neque dolorum quos tenetur quod eveniet! Quod harum laboriosam distinctio accusantium tempora expedita ab illum aliquid soluta?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <img class="card-img-top" src="./img/ArticlesPlaceholder.jpg">
+                            <div class="card-body">
+                                <h4 class="card-title">Card Title</h4>
+                                <h6 class="card-subtitle mb-2 text-muted">Card Subtitle</h6>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet quae incidunt, quibusdam vitae neque dolorum quos tenetur quod eveniet! Quod harum laboriosam distinctio accusantium tempora expedita ab illum aliquid soluta?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <img class="card-img-top" src="./img/ArticlesPlaceholder.jpg">
+                            <div class="card-body">
+                                <h4 class="card-title">Card Title</h4>
+                                <h6 class="card-subtitle mb-2 text-muted">Card Subtitle</h6>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet quae incidunt, quibusdam vitae neque dolorum quos tenetur quod eveniet! Quod harum laboriosam distinctio accusantium tempora expedita ab illum aliquid soluta?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Articles--> 
+            <div class="container">
+                <h1>#Articles</h1> 
+                <div class="row mb-5">                               
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <img class="card-img-top" src="./img/DecksPlaceholder.jpg">
+                            <div class="card-body">
+                                <h4 class="card-title">Card Title</h4>
+                                <h6 class="card-subtitle mb-2 text-muted">Card Subtitle</h6>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet quae incidunt, quibusdam vitae neque dolorum quos tenetur quod eveniet! Quod harum laboriosam distinctio accusantium tempora expedita ab illum aliquid soluta?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <img class="card-img-top" src="./img/DecksPlaceholder.jpg">
+                            <div class="card-body">
+                                <h4 class="card-title">Card Title</h4>
+                                <h6 class="card-subtitle mb-2 text-muted">Card Subtitle</h6>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet quae incidunt, quibusdam vitae neque dolorum quos tenetur quod eveniet! Quod harum laboriosam distinctio accusantium tempora expedita ab illum aliquid soluta?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <img class="card-img-top" src="./img/DecksPlaceholder.jpg">
+                            <div class="card-body">
+                                <h4 class="card-title">Card Title</h4>
+                                <h6 class="card-subtitle mb-2 text-muted">Card Subtitle</h6>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet quae incidunt, quibusdam vitae neque dolorum quos tenetur quod eveniet! Quod harum laboriosam distinctio accusantium tempora expedita ab illum aliquid soluta?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <img class="card-img-top" src="./img/DecksPlaceholder.jpg">
+                            <div class="card-body">
+                                <h4 class="card-title">Card Title</h4>
+                                <h6 class="card-subtitle mb-2 text-muted">Card Subtitle</h6>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet quae incidunt, quibusdam vitae neque dolorum quos tenetur quod eveniet! Quod harum laboriosam distinctio accusantium tempora expedita ab illum aliquid soluta?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <img class="card-img-top" src="./img/DecksPlaceholder.jpg">
+                            <div class="card-body">
+                                <h4 class="card-title">Card Title</h4>
+                                <h6 class="card-subtitle mb-2 text-muted">Card Subtitle</h6>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet quae incidunt, quibusdam vitae neque dolorum quos tenetur quod eveniet! Quod harum laboriosam distinctio accusantium tempora expedita ab illum aliquid soluta?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <img class="card-img-top" src="./img/DecksPlaceholder.jpg">
+                            <div class="card-body">
+                                <h4 class="card-title">Card Title</h4>
+                                <h6 class="card-subtitle mb-2 text-muted">Card Subtitle</h6>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet quae incidunt, quibusdam vitae neque dolorum quos tenetur quod eveniet! Quod harum laboriosam distinctio accusantium tempora expedita ab illum aliquid soluta?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        </body>
+
+        <footer class="container-fluid">
+            <div class="ml-auto"></div>
+                <p>Social Media</p>
+                <a href="#"><i class="fab fa-facebook-f text-muted"></i></a>
+                <a href="#"><i class="fab fa-twitch text-muted"></i></a>
+                <a href="#"><i class="fab fa-twitter text-muted"></i></a>
+                <a href="#"><i class="fab fa-instagram text-muted"></i></a>
+                <a href="#"><i class="fab fa-youtube text-muted"></i></a>
+            </div>
+            <div class="mr-auto">
+                <p>Donation</p>
+            </div>
+        </footer>
+    </html>
